@@ -1,0 +1,22 @@
+name: capstone_project
+description: A minimal capstone Flutter app for the assignment
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  shared_preferences: ^2.1.1
+  flutter_local_notifications: ^12.0.4
+  provider: ^6.0.5
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
